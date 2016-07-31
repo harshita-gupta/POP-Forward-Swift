@@ -101,6 +101,11 @@ class CatWrapper: AnimalWrapper {
 
 extension Array where Element: Animal {
     func wrappedArray() -> [AnimalWrapper] {
-        
+        var wrappedArray = [AnimalWrapper]()
+        for item in self {
+            wrappedArray.append(AnimalWrapper(name: <#T##String#>)
+        }
     }
 }
+
+
